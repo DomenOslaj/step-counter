@@ -2,8 +2,8 @@
 # make for a certain distance.
 
 
-def calculate_steps(distance_m, step_length_m):
-    steps = int(distance_m/step_length_m)
+def calculate_steps(distance, step_length):
+    steps = int(distance/step_length)
     print("Number of steps: {0}".format(steps))
 
 
